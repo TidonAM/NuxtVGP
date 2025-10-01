@@ -1,4 +1,5 @@
 import { createVuetify } from 'vuetify'
+import { aliases, mdi } from 'vuetify/iconsets/mdi'
 import * as labs from 'vuetify/labs/components'
 import 'vuetify/styles'
 // Use this if you want only icons used by Vuetify components internally should be imported
@@ -8,7 +9,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 	const vuetify = createVuetify({
 		components: { ...labs },
 		// Refer to https://vuetifyjs.com/en/features/icon-fonts/
-		// icons: { defaultSet: 'mdi', aliases, sets: { mdi } },
+		icons: { defaultSet: 'mdi', aliases, sets: { mdi } },
 		ssr: true,
 	})
 

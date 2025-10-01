@@ -74,6 +74,33 @@
 				<v-btn color="deep-purple lighten-2">Reserve</v-btn>
 			</v-card-actions>
 		</v-card>
+		<div class="d-flex justify-space-between align-center">
+			<h3 class="my-5">
+				Example SpaceX Launches
+				<v-chip color="blue">SimpleTable</v-chip>
+				<v-chip color="orange">Filter and Sort</v-chip>
+				<v-chip color="orange">Data from spaceX graphql</v-chip>
+			</h3>
+			<v-btn color="primary" to="/launches" router>Go to Launches</v-btn>
+		</div>
+		<div class="d-flex justify-space-between align-center">
+			<h3 class="my-5">
+				Example SpaceX Rockets
+				<v-chip color="blue">SimpleTable</v-chip>
+				<v-chip color="orange">Data from spaceX graphql</v-chip>
+			</h3>
+			<v-btn color="primary" to="/rockets" router>Go to Rockets</v-btn>
+		</div>
+		<div class="d-flex justify-space-between align-center">
+			<h3 class="my-5">
+				Example Pinia
+				<v-chip color="blue">SimpleTable</v-chip>
+				<v-chip color="blue">Tabs</v-chip>
+				<v-chip color="orange">Data from spaceX graphql</v-chip>
+			</h3>
+			<v-btn color="primary" to="/favorites" router>Go to Favorites</v-btn>
+		</div>
+
 		<h3 class="my-5">
 			Example Vuetify
 			<v-chip color="blue">SimpleTable</v-chip>
